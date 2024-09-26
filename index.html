@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeanOffice - Back Office & Support Services</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-800 p-4 backdrop-blur-md bg-opacity-60 fixed right-0 left-0 top-0 z-20">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-white font-bold text-2xl">LeanOffice</a>
+      <div>
+        <a href="#about" class="text-white mx-2">About Us</a>
+        <a href="#services" class="text-white mx-2">Services</a>
+        <a href="#contact" class="text-white mx-2">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="h-screen bg-cover bg-center text-white flex items-center justify-center relative">
+    <div class="text-center relative z-10">
+      <!-- <h1 class="text-5xl font-bold">LeanOffice</h1> -->
+      <h1 class="text-5xl font-bold">LEANOFFICE</h1>
+      <p class="mt-4 text-xl">Cost-Effective Back Office and Support Services for Middle East and Europe</p>
+      <a href="#services" class="mt-8 inline-block bg-white text-black px-6 py-3 rounded-full">Learn More</a>
+    </div>
+    <video autoplay muted loop id="myVideo" class="absolute left-0 top-0 bottom-0 right-0 w-full h-full object-cover">
+      <source src="assets/bg-video.webm" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- About Us Section with Alternating Images -->
+  <section id="about" class="py-16 bg-white px-48">
+    <div class="container mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <img src="assets/images/about-us.png" alt="About LeanOffice" class="w-full h-auto">
+        <div>
+          <h2 class="text-left text-4xl font-bold mb-8">About Us</h2>
+          <p class="mb-6 text-xl font-medium">LeanOffice is an initiative by a group of highly experienced industry experts aimed at extending cost-effective back office and support services remotely, focusing on the Middle East and Europe. We offer:</p>
+          <ul class="list-disc ml-6">
+            <li>Customized services based on client-specific requirements</li>
+            <li>Availability in local time zones</li>
+            <li>100% confidentiality maintained</li>
+            <li>Operated by senior professionals</li>
+          </ul>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-12">
+        <div class="order-2 md:order-1">
+          <h3 class="text-3xl font-semibold mb-6">Key Benefits</h3>
+          <ul class="list-disc ml-6">
+            <li><strong>Cost Savings:</strong> Significant savings through offshore support model operations.</li>
+            <li><strong>Access to Skilled Talent Pool:</strong> Tap into a global pool of trained, specialized talent.</li>
+            <li><strong>Scalability:</strong> Scale your business easily based on market demand.</li>
+            <li><strong>Focus on Core Business:</strong> Outsource non-core tasks and focus on your core business operations.</li>
+            <li><strong>Time Zone Advantage:</strong> The offshore team provides 24x7 support.</li>
+          </ul>
+        </div>
+        <img src="assets/images/key-benifits.png" alt="Key Benefits" class="order-1 md:order-2 w-full h-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gradient-to-r from-white to-gray-200 px-48">
+    <div class="container mx-auto">
+      <h2 class="text-center text-4xl font-bold mb-12">Our Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <!-- Office Assistant -->
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+          <div class="text-center">
+            <img src="assets/images/office_assistant.gif" alt="Office Assistant Icon" class="w-12 h-12 mx-auto mb-4">
+            <h5 class="text-xl font-semibold mb-4">Office Assistant</h5>
+            <p class="text-gray-700 mb-4">Providing general assistance to offices in administrative support, organizing records, managing communications, and scheduling appointments.</p>
+            <ul class="list-disc ml-6 text-left">
+              <li>Clerical and scheduling support for staff and executives</li>
+              <li>Email management and correspondence</li>
+              <li>Travel arrangements and general office support</li>
+            </ul>
+            <a href="services.html#office-assistant" class="inline-block mt-6 text-blue-600 px-4 py-2 hover:underline">Know More</a>
+          </div>
+        </div>
+
+        <!-- HR Assistant -->
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+          <div class="text-center">
+            <img src="assets/images/hr_assistant.gif" alt="HR Assistant Icon" class="w-12 h-12 mx-auto mb-4">
+            <h5 class="text-xl font-semibold mb-4">Human Resources Assistant</h5>
+            <p class="text-gray-700 mb-4">Supporting the HR department with recruitment, onboarding, payroll processing, and employee record management.</p>
+            <ul class="list-disc ml-6 text-left">
+              <li>Administrative duties and enforcing company policies</li>
+              <li>Assisting with recruitment and hiring</li>
+              <li>Onboarding new employees and processing payroll</li>
+            </ul>
+            <a href="services.html#hr-assistant" class="inline-block mt-6 text-blue-600 px-4 py-2 hover:underline">Know More</a>
+          </div>
+        </div>
+
+        <!-- Finance/Accounts Assistant -->
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+          <div class="text-center">
+            <img src="assets/images/accounts_assistant.gif" alt="Finance Assistant Icon" class="w-12 h-12 mx-auto mb-4">
+            <h5 class="text-xl font-semibold mb-4">Finance/Accounts Assistant</h5>
+            <p class="text-gray-700 mb-4">Providing support for the finance/accounts department through data entry, reconciliation, and financial statements preparation.</p>
+            <ul class="list-disc ml-6 text-left">
+              <li>Data entry and validation</li>
+              <li>Reconciliation of accounts</li>
+              <li>Creating financial statements</li>
+            </ul>
+            <a href="services.html#finance-assistant" class="inline-block mt-6 text-blue-600 px-4 py-2 hover:underline">Know More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
+        <!-- Data Analyst -->
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+          <div class="text-center">
+            <img src="assets/images/data_analyst.gif" alt="Data Analyst Icon" class="w-12 h-12 mx-auto mb-4">
+            <h5 class="text-xl font-semibold mb-4">Data Analyst</h5>
+            <p class="text-gray-700 mb-4">Analyzing data collected by marketing or sales teams to identify customer behavior or industry trends.</p>
+            <ul class="list-disc ml-6 text-left">
+              <li>Scraping data from the internet</li>
+              <li>Creating visualizations and developing algorithms</li>
+              <li>Running studies and data analysis</li>
+            </ul>
+            <a href="services.html#data-analyst" class="inline-block mt-6 text-blue-600 px-4 py-2 hover:underline">Know More</a>
+          </div>
+        </div>
+
+        <!-- Data Management -->
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+          <div class="text-center">
+            <img src="assets/images/data_management.gif" alt="Data Management Icon" class="w-12 h-12 mx-auto mb-4">
+            <h5 class="text-xl font-semibold mb-4">Data Management</h5>
+            <p class="text-gray-700 mb-4">Providing data management services for HR, Accounting, and Marketing, focusing on data collection, organization, and maintenance.</p>
+            <ul class="list-disc ml-6 text-left">
+              <li>HR data management, including recruitment and performance tracking</li>
+              <li>Financial information reporting and analysis</li>
+              <li>Product and supplier data collection and verification</li>
+            </ul>
+            <a href="services.html#data-management" class="inline-block mt-6 text-blue-600 px-4 py-2 hover:underline">Know More</a>
+          </div>
+        </div>
+
+        <!-- Corporate Training -->
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+          <div class="text-center">
+            <img src="assets/images/corporate_training.gif" alt="Corporate Training Icon" class="w-12 h-12 mx-auto mb-4">
+            <h5 class="text-xl font-semibold mb-4">Corporate Training</h5>
+            <p class="text-gray-700">Providing customized corporate training based on the specific needs of client companies.</p>
+            <a href="services.html#corporate-training" class="inline-block mt-6 text-blue-600 px-4 py-2 hover:underline">Know More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 bg-blue-900 text-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Contact Us</h2>
+      <p class="mb-2">Email: info@leanoffice.com | Phone: +123-456-7890</p>
+      <p>Office Location: Trivandrum, India</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-800 text-white py-4">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 LeanOffice. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.0"></script>
+</body>
+</html>
